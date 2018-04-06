@@ -1,0 +1,27 @@
+{
+    "name": "mastommel/laravel-basic-user-permissions",
+    "description": "A Laravel 5 package to manage user roles and permissions",
+    "require": {
+        "php": "^7.0",
+        "spatie/laravel-permission": "^2.9"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "ORT\\Permissions\\": "src"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
